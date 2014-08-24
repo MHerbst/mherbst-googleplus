@@ -1,0 +1,24 @@
+{
+   "name": "Google+ Comments",
+	"version": "0.2",
+	"description": "Automatically add Google+ comments to any theme.",
+	"demo": "http://koken.me",
+	"author": {
+		"name": "Martin Herbst",
+		"link": "https://www.brisoft.de"
+	},
+
+	"data": {
+		"width": {
+			"label": "Width in px",
+			"info": "Width of the comment area. Enter 0 if the width should be adjusted dynamically.",
+			"type": "string",
+			"value": "0",
+			"validation": {
+			   "type": "regex",
+			   "rule": "^[0-9]*$",
+			   "error_message": "Please enter a numeric value."
+			}
+		}
+	}
+}
