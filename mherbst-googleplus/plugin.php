@@ -41,7 +41,7 @@ $(document).ready(function() {
 	    width: w,
 	    first_party_property: 'BLOGGER',
 	    view_type: 'FILTERED_POSTMOD'
-	});;
+	});
 });
 </script>			
 OUT;
