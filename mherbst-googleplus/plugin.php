@@ -17,7 +17,7 @@ class KokenGooglePlus extends KokenPlugin {
 
 	function render_count_div($item)
 	{
-		echo '<div class="g-commentcount" data-href="{{ location.site_url }}{{ location.here }}"></div>';
+		echo '<div class="g-commentcount" data-href="'.$item['url'].'"></div>';
 	}
 
 	function render_js()
